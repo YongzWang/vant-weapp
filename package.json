@@ -1,10 +1,10 @@
 {
-  "name": "@boka/vant",
-  "version": "0.1",
+  "name": "boka-vant-weapp",
+  "version": "0.1.2",
   "author": "vant-ui",
   "license": "MIT",
   "miniprogram": "lib",
-  "description": "fork vant app 增加公司个性化的一些内容",
+  "description": "fork vant 增加公司个性化的一些内容",
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org/"
@@ -17,7 +17,6 @@
     "release:site": "vant-cli build-site && gh-pages -d site-dist --add",
     "build:lib": "yarn && npx gulp -f build/compiler.js --series buildEs buildLib",
     "build:changelog": "vant-cli changelog",
-    "upload:weapp": "node build/upload.js",
     "test": "jest",
     "test:watch": "jest --watch"
   },
@@ -67,5 +66,6 @@
     "Chrome >= 53",
     "ChromeAndroid >= 53",
     "iOS >= 9"
-  ]
+  ],
+  "dependencies": {}
 }

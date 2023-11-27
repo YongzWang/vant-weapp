@@ -5,6 +5,7 @@
     "target": "es6",
     "declaration": true,
     "noImplicitAny": false,
+    "noImplicitThis": true,
     "outDir": "dist",
     "baseUrl": ".",
     "strict": true,
