@@ -19,6 +19,11 @@ VantComponent({
             type: null,
             observer: 'setDays',
         },
+        visible: {
+            type: Boolean,
+            value: true,
+            observer: 'setDays',
+        },
         showMark: Boolean,
         rowHeight: null,
         formatter: {
@@ -38,7 +43,7 @@ VantComponent({
         showMonthTitle: Boolean,
     },
     data: {
-        visible: true,
+        // visible: true,
         days: [],
     },
     methods: {
