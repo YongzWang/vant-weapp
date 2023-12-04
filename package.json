@@ -1,6 +1,6 @@
 {
   "name": "boka-vant-weapp",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "author": "vant-ui",
   "license": "MIT",
   "miniprogram": "lib",
